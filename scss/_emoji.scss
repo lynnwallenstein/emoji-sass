@@ -902,7 +902,7 @@ $emoji-size: 16px;
 
 @each $emoji, $file in $emoji-list {
 
-  %emoji-#{$emoji} {
+  .emoji-#{$emoji} {
     background-image: url("/images/emoji/#{$file}.png")
   } // .emoji-$name
 
